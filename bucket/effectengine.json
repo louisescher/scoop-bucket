@@ -1,5 +1,5 @@
 {
-  "version": "",
+  "version": "0.1.4",
   "description": "An image editing toolset written in Rust.",
   "homepage": "https://github.com/louisescher/effectengine",
   "license": "MIT",
