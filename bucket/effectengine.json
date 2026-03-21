@@ -1,0 +1,24 @@
+{
+    "version": "0.0.0",
+    "description": "An image editing toolset written in Rust.",
+    "homepage": "https://github.com/louisescher/effectengine",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/louisescher/effectengine/releases/download/effectengine-v0.0.0/effectengine-windows-x86_64.zip",
+            "hash": "placeholder"
+        }
+    },
+    "bin": "effectengine.exe",
+    "checkver": {
+        "github": "https://github.com/louisescher/effectengine",
+        "regex": "effectengine-v([\\d.]+)"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/louisescher/effectengine/releases/download/effectengine-v$version/effectengine-windows-x86_64.zip"
+            }
+        }
+    }
+}
