@@ -1,0 +1,22 @@
+{
+    "version": "0.1.0",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/louisescher/hangar/releases/download/v0.1.0/hangar_0.1.0_windows_amd64.zip",
+            "bin": [
+                "hangar.exe"
+            ],
+            "hash": "45f070c064c935d35cc1101fc027bbc5d7e8f1cf8a2698375e2402e6592fc515"
+        },
+        "arm64": {
+            "url": "https://github.com/louisescher/hangar/releases/download/v0.1.0/hangar_0.1.0_windows_arm64.zip",
+            "bin": [
+                "hangar.exe"
+            ],
+            "hash": "28e1c7be6d735b2cd88a1176ce2f89033b65ac4efa83a01c2272edcf282a5e4b"
+        }
+    },
+    "homepage": "https://github.com/louisescher/hangar",
+    "license": "MIT",
+    "description": "A TUI package manager for AI agent skills"
+}
