@@ -1,19 +1,19 @@
 {
-    "version": "0.2.1",
+    "version": "0.3.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/louisescher/hangar/releases/download/v0.2.1/hangar_0.2.1_windows_amd64.zip",
+            "url": "https://github.com/louisescher/hangar/releases/download/v0.3.0/hangar_0.3.0_windows_amd64.zip",
             "bin": [
                 "hangar.exe"
             ],
-            "hash": "a8b862cff9246b7c4f4dd0f55b67c5eadeaeddc9e920b6bd8ad660e1bbe85201"
+            "hash": "4d9b31bf1633faabd69c9a75e89b8707229bb6e7ae81f27387d92f5ea505ac21"
         },
         "arm64": {
-            "url": "https://github.com/louisescher/hangar/releases/download/v0.2.1/hangar_0.2.1_windows_arm64.zip",
+            "url": "https://github.com/louisescher/hangar/releases/download/v0.3.0/hangar_0.3.0_windows_arm64.zip",
             "bin": [
                 "hangar.exe"
             ],
-            "hash": "144a012e5a47ae03da273d7a06e772f34c0e98b0f8e883c85e892733641351dc"
+            "hash": "c9ea8a46531bafcfda3f82d0a96a7cc5271417c81a7f3ef36380eaf5dcd33b29"
         }
     },
     "homepage": "https://github.com/louisescher/hangar",
